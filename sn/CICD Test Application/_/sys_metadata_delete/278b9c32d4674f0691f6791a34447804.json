@@ -1,0 +1,14 @@
+{
+  "sys_class_name": "sys_metadata_delete",
+  "sys_created_by": "admin",
+  "sys_created_on": "2020-01-31 20:49:52",
+  "sys_id": "278b9c32d4674f0691f6791a34447804",
+  "sys_mod_count": 0,
+  "sys_name": "CICD App",
+  "sys_package": "268e9d5fdbb32300fcf417803996195e",
+  "sys_policy": null,
+  "sys_scope": "268e9d5fdbb32300fcf417803996195e",
+  "sys_update_name": "ecc_agent_application_c33b8ebbdbe20010df8cab7dca961932",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2020-01-31 20:49:52"
+}
