@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-02-03 23:14:07">
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-02-03 23:21:09">
 <sys_remote_update_set action="INSERT_OR_UPDATE">
 <application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
 <application_name>CICD Test Application</application_name>
@@ -20,11 +20,11 @@
 <summary/>
 <sys_class_name>sys_remote_update_set</sys_class_name>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:06</sys_created_on>
-<sys_id>d35d9a3cdb760010df8cab7dca96197d</sys_id>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>d6fe16bcdb760010df8cab7dca96198e</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:06</sys_updated_on>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
 <update_set display_value=""/>
 <update_source display_value=""/>
 <updated/>
@@ -34,50 +34,129 @@
 <application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
 <category>customer</category>
 <comments/>
-<name>sys_atf_test_7c1bed9bdbf32300fcf41780399619cb</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>CICD Test 1</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 14:39:48</sys_created_on><sys_id>7c1bed9bdbf32300fcf41780399619cb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>CICD Test 1</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>sys_atf_test_7c1bed9bdbf32300fcf41780399619cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-28 14:41:19</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=7c1bed9bdbf32300fcf41780399619cb"/></record_update>]]></payload>
-<payload_hash>844007439</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
+<name>sys_app_268e9d5fdbb32300fcf417803996195e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>false</can_edit_in_studio><enforce_license>log</enforce_license><guided_setup_guid/><js_level>helsinki_es5</js_level><licensable>true</licensable><license_category/><license_model>none</license_model><logo/><menu/><name>CICD Test Application</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_11413_cicd_test</scope><scoped_administration>false</scoped_administration><short_description/><source>x_11413_cicd_test</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 13:44:55</sys_created_on><sys_id>268e9d5fdbb32300fcf417803996195e</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-03 22:15:17</sys_updated_on><template/><trackable>true</trackable><user_role/><vendor/><vendor_prefix/><version>1.0.1</version></sys_app></record_update>]]></payload>
+<payload_hash>-1045830241</payload_hash>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:07</sys_created_on>
-<sys_id>135d5e3cdb760010df8cab7dca961912</sys_id>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>12fe16bcdb760010df8cab7dca96198f</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54aa390000001</sys_recorded_at>
+<sys_recorded_at>1700d5b15f20000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:07</sys_updated_on>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
 <table/>
-<target_name>CICD Test 1</target_name>
-<type>Test</type>
+<target_name>CICD Test Application</target_name>
+<type>Custom Application</type>
 <update_domain>global</update_domain>
-<update_guid>044d9a3c717600103ddc2a8da33d430d</update_guid>
-<update_guid_history>044d9a3c717600103ddc2a8da33d430d:844007439,beee4ebcd63600101a8a24894bfa50b6:844007439,f87ba1db4cf32300487d505639c98543:-674684022,899f5e7fb4260010a70547f0b15d4565:497054595,70d3937e2ae2401078108bb378de3961:844007439,f87ba1db4cf32300487d505639c98543:-674684022,7a1be99bc5f323000d63d6adbc148566:-515339608</update_guid_history>
+<update_guid>3eded2bcb4760010a0a3d7b26b87b26d</update_guid>
+<update_guid_history>3eded2bcb4760010a0a3d7b26b87b26d:-1045830241,31ef4ebcf93600100537b273ae38a681:-1045830241,a6ee4ebc21360010ee340c01fbebe3a0:1157241030,aa8e91136bf32300d9d4df8138f692aa:-592436742,a99f5e7f87260010664088353e4ff099:-529152854,6c5c5f76b7264010b65e414d82d15e35:-1375596002,bcd3937ef4e2401059c42b1b4335214f:1157241030,aa8e91136bf32300d9d4df8138f692aa:-592436742</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
 <sys_update_xml action="INSERT_OR_UPDATE">
-<action>DELETE</action>
+<action>INSERT_OR_UPDATE</action>
 <application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
 <category>customer</category>
 <comments/>
-<name>ecc_agent_application_c33b8ebbdbe20010df8cab7dca961932</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ecc_agent_application"><ecc_agent_application action="DELETE"><default_mid_server display_value="mid-docker-02">ebb44eb3dbe20010df8cab7dca9619ed</default_mid_server><included_in_app_all>true</included_in_app_all><name>CICD App</name><sys_class_name>ecc_agent_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-31 19:21:17</sys_created_on><sys_id>c33b8ebbdbe20010df8cab7dca961932</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CICD App</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>ecc_agent_application_c33b8ebbdbe20010df8cab7dca961932</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-31 19:21:17</sys_updated_on></ecc_agent_application></record_update>]]></payload>
-<payload_hash>-898726499</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
+<name>sys_script_include_1b9ed113dbf32300fcf41780399619fc</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_11413_cicd_test.tst&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;tst&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Class Description
+ * 
+ * @class 
+ * @author System Administrator [admin]
+ * @memberof x_11413_cicd_test.module:sys_script_include
+ */
+var tst = Class.create();
+tst.prototype = /** @lends x_11413_cicd_test.module:sys_script_include.tst.prototype */ {
+	/**
+	 * Description
+	 * 
+	 * @returns {undefined}
+	 */
+	initialize: function() {
+	},
+	
+	/**
+	 * Description
+	 * 
+	 * @returns {boolean}
+	 */
+	dummy: function(){
+		return true;
+	},
+	
+	type: 'tst'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-28 13:45:57&lt;/sys_created_on&gt;&lt;sys_id&gt;1b9ed113dbf32300fcf41780399619fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;tst&lt;/sys_name&gt;&lt;sys_package display_value="CICD Test Application" source="x_11413_cicd_test"&gt;268e9d5fdbb32300fcf417803996195e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CICD Test Application"&gt;268e9d5fdbb32300fcf417803996195e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_1b9ed113dbf32300fcf41780399619fc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-03-28 14:44:35&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1008681585</payload_hash>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:06</sys_created_on>
-<sys_id>175d5e3cdb760010df8cab7dca961911</sys_id>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>16fe16bcdb760010df8cab7dca961991</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54a8cf0000001</sys_recorded_at>
+<sys_recorded_at>1700d5b16450000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:06</sys_updated_on>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
 <table/>
-<target_name>CICD App</target_name>
-<type>MID Server Application</type>
+<target_name>tst</target_name>
+<type>Script Include</type>
 <update_domain>global</update_domain>
-<update_guid>4c4d9a3cd97600105baa34fd4c258501</update_guid>
-<update_guid_history>4c4d9a3cd97600105baa34fd4c258501:-898726499,d99f5e7fa2260010b5ae1f2aade3697f:-898726499,3b4b8af724e200101b91c3ab6c7cfeb8:1119173009</update_guid_history>
+<update_guid>32ded2bc08760010c5b6a01b9229c973</update_guid>
+<update_guid_history>32ded2bc08760010c5b6a01b9229c973:1008681585,eeee4ebc09360010bf199c4e5e522ba7:1008681585,f1b8fd1044acff009ea5106fffe178dc:-1350214874,bc9f5e7fbb260010b077b9828855e027:-792277635,3cd3937ebae240103be1d540dfcfad56:1008681585,f1b8fd1044acff009ea5106fffe178dc:-1350214874,be09611b8af32300b5e7d7f88b2759f3:-613142934,b4c5e9175bf32300caecadd33c24f5b6:718923934,0eb5e91700f323005672ea792f1b066b:1646079823,99ee9513b7f3230055f7388cfd43d01a:-1681877651,b5ced513adf323009f38db6b92d99bb2:-1730179430</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_4010215bdbb32300fcf41780399619cb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 13:51:34</sys_created_on><sys_id>4010215bdbb32300fcf41780399619cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Glide API: properties</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>sys_scope_privilege_4010215bdbb32300fcf41780399619cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-28 13:51:34</sys_updated_on><target_name>Glide API: properties</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>1294230145</payload_hash>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>1afe16bcdb760010df8cab7dca961990</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1700d5b16bf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
+<table/>
+<target_name>Glide API: properties</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>7eded2bc0876001015c7f360431ff187</update_guid>
+<update_guid_history>7eded2bc0876001015c7f360431ff187:1294230145,cc10215b44b3230003d08ee4dcd262cc:1294230145,419f5e7f71260010719259cda6a2b241:814107021,cc10215b44b3230003d08ee4dcd262cc:1294230145</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_e97ba99bdbf32300fcf41780399619c3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>CICD Test 2</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 14:41:22</sys_created_on><sys_id>e97ba99bdbf32300fcf41780399619c3</sys_id><sys_mod_count>1</sys_mod_count><sys_name>CICD Test 2</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>sys_atf_test_e97ba99bdbf32300fcf41780399619c3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-28 14:41:29</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=e97ba99bdbf32300fcf41780399619c3"/></record_update>]]></payload>
+<payload_hash>68977711</payload_hash>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>1efe16bcdb760010df8cab7dca96198f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1700d5b17210000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
+<table/>
+<target_name>CICD Test 2</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>feded2bc5e760010c9889d64cf0cce8e</update_guid>
+<update_guid_history>feded2bc5e760010c9889d64cf0cce8e:68977711,36ee4ebc8a360010ad2a360aa5fca0b9:68977711,137be1db20f32300471cc8d5a6379159:-312501236,999f5e7fb72600107514ac2fea54228e:-277975133,f4d3937e82e24010ef059688e0608163:68977711,137be1db20f32300471cc8d5a6379159:-312501236,e17ba99b8ef3230024d94bfe0d5686c5:-215346626</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -93,21 +172,21 @@
 
 })(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-01-28 22:39:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a0bbdb36db264010df8cab7dca9619de&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;bn_test&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="CICD Test Application" source="x_11413_cicd_test"&gt;268e9d5fdbb32300fcf417803996195e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CICD Test Application"&gt;268e9d5fdbb32300fcf417803996195e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_a0bbdb36db264010df8cab7dca9619de&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-01-28 22:39:42&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a0bbdb36db264010df8cab7dca9619de"/&gt;&lt;/record_update&gt;</payload>
 <payload_hash>2137102542</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:07</sys_created_on>
-<sys_id>1b5d5e3cdb760010df8cab7dca961913</sys_id>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>52fe16bcdb760010df8cab7dca961991</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54a8e40000001</sys_recorded_at>
+<sys_recorded_at>1700d5b167a0000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:07</sys_updated_on>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
 <table/>
 <target_name>bn_test</target_name>
 <type>Business Rule</type>
 <update_domain>global</update_domain>
-<update_guid>004d9a3ced760010845b743ac0f9db03</update_guid>
-<update_guid_history>004d9a3ced760010845b743ac0f9db03:2137102542,4d9f5e7f5426001032ba41b40e10a66d:2137102542,01fb57363726401045ce2400df00b2c9:963905218</update_guid_history>
+<update_guid>7aded2bcee760010477ae6a387017476</update_guid>
+<update_guid_history>7aded2bcee760010477ae6a387017476:2137102542,4d9f5e7f5426001032ba41b40e10a66d:2137102542,01fb57363726401045ce2400df00b2c9:963905218</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -119,21 +198,21 @@
 <name>sys_scope_privilege_3c7dec1cdba8ff00fcf4178039961955</name>
 <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>read</operation><source_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-03-28 09:15:44</sys_created_on><sys_id>3c7dec1cdba8ff00fcf4178039961955</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_app</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>sys_scope_privilege_3c7dec1cdba8ff00fcf4178039961955</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-03-28 09:15:44</sys_updated_on><target_name>sys_app</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
 <payload_hash>-1538163631</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:07</sys_created_on>
-<sys_id>1f5d5e3cdb760010df8cab7dca961912</sys_id>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>56fe16bcdb760010df8cab7dca961990</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54a9810000001</sys_recorded_at>
+<sys_recorded_at>1700d5b16af0000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:07</sys_updated_on>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
 <table/>
 <target_name>sys_app</target_name>
 <type>Cross scope privilege</type>
 <update_domain>global</update_domain>
-<update_guid>884d9a3c107600105e7a78adf5fc0606</update_guid>
-<update_guid_history>884d9a3c107600105e7a78adf5fc0606:-1538163631,307dec1c96a8ff007d3e88813d867957:-1538163631,499f5e7faa2600102adaec3d0ae47a3e:-1342689955,307dec1c96a8ff007d3e88813d867957:-1538163631</update_guid_history>
+<update_guid>baded2bc6a7600107aa80a145071f586</update_guid>
+<update_guid_history>baded2bc6a7600107aa80a145071f586:-1538163631,307dec1c96a8ff007d3e88813d867957:-1538163631,499f5e7faa2600102adaec3d0ae47a3e:-1342689955,307dec1c96a8ff007d3e88813d867957:-1538163631</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -142,24 +221,50 @@
 <application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
 <category>customer</category>
 <comments/>
-<name>sys_scope_privilege_ae312d13dbf32300fcf41780399619c4</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>read</operation><source_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 13:56:39</sys_created_on><sys_id>ae312d13dbf32300fcf41780399619c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_script_include</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>sys_scope_privilege_ae312d13dbf32300fcf41780399619c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-28 13:56:39</sys_updated_on><target_name>sys_script_include</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
-<payload_hash>1163682929</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
+<name>sys_atf_test_7c1bed9bdbf32300fcf41780399619cb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>CICD Test 1</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 14:39:48</sys_created_on><sys_id>7c1bed9bdbf32300fcf41780399619cb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>CICD Test 1</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>sys_atf_test_7c1bed9bdbf32300fcf41780399619cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-28 14:41:19</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=7c1bed9bdbf32300fcf41780399619cb"/></record_update>]]></payload>
+<payload_hash>844007439</payload_hash>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:07</sys_created_on>
-<sys_id>575d5e3cdb760010df8cab7dca961913</sys_id>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>5afe16bcdb760010df8cab7dca96198f</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54a9e40000001</sys_recorded_at>
+<sys_recorded_at>1700d5b170f0000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:07</sys_updated_on>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
 <table/>
-<target_name>sys_script_include</target_name>
-<type>Cross scope privilege</type>
+<target_name>CICD Test 1</target_name>
+<type>Test</type>
 <update_domain>global</update_domain>
-<update_guid>c04d9a3c25760010e36c7bb3f4ab280a</update_guid>
-<update_guid_history>c04d9a3c25760010e36c7bb3f4ab280a:1163682929,a6312d13cff3230087bbf5151bd663c6:1163682929,519f5e7fc52600106a6afcc998f46b7b:902530173,a6312d13cff3230087bbf5151bd663c6:1163682929</update_guid_history>
+<update_guid>36ded2bc06760010c256f74f06f5808d</update_guid>
+<update_guid_history>36ded2bc06760010c256f74f06f5808d:844007439,beee4ebcd63600101a8a24894bfa50b6:844007439,f87ba1db4cf32300487d505639c98543:-674684022,899f5e7fb4260010a70547f0b15d4565:497054595,70d3937e2ae2401078108bb378de3961:844007439,f87ba1db4cf32300487d505639c98543:-674684022,7a1be99bc5f323000d63d6adbc148566:-515339608</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
+<category>customer</category>
+<comments/>
+<name>ecc_agent_application_c33b8ebbdbe20010df8cab7dca961932</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ecc_agent_application"><ecc_agent_application action="DELETE"><default_mid_server display_value="mid-docker-02">ebb44eb3dbe20010df8cab7dca9619ed</default_mid_server><included_in_app_all>true</included_in_app_all><name>CICD App</name><sys_class_name>ecc_agent_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-31 19:21:17</sys_created_on><sys_id>c33b8ebbdbe20010df8cab7dca961932</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CICD App</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>ecc_agent_application_c33b8ebbdbe20010df8cab7dca961932</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-31 19:21:17</sys_updated_on></ecc_agent_application></record_update>]]></payload>
+<payload_hash>-898726499</payload_hash>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>5efe16bcdb760010df8cab7dca96198e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1700d5b16660000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
+<table/>
+<target_name>CICD App</target_name>
+<type>MID Server Application</type>
+<update_domain>global</update_domain>
+<update_guid>b6ded2bc217600109cc51dd60a0bc575</update_guid>
+<update_guid_history>b6ded2bc217600109cc51dd60a0bc575:-898726499,d99f5e7fa2260010b5ae1f2aade3697f:-898726499,3b4b8af724e200101b91c3ab6c7cfeb8:1119173009</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -171,21 +276,21 @@
 <name>sys_atf_test_suite_test_6b9ba5dbdbf32300fcf417803996199d</name>
 <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="INSERT_OR_UPDATE"><abort_on_failure>false</abort_on_failure><order/><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 14:42:09</sys_created_on><sys_id>6b9ba5dbdbf32300fcf417803996199d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2d8b65dbdbf32300fcf41780399619b1</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>sys_atf_test_suite_test_6b9ba5dbdbf32300fcf417803996199d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-28 14:42:09</sys_updated_on><test display_value="CICD Test 2">e97ba99bdbf32300fcf41780399619c3</test><test_suite display_value="CICD Suite ">2d8b65dbdbf32300fcf41780399619b1</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
 <payload_hash>1625397776</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:07</sys_created_on>
-<sys_id>5b5d5e3cdb760010df8cab7dca961912</sys_id>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>92fe16bcdb760010df8cab7dca961990</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54aa110000001</sys_recorded_at>
+<sys_recorded_at>1700d5b16fa0000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:07</sys_updated_on>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
 <table/>
 <target_name>e97ba99bdbf32300fcf41780399619c3</target_name>
 <type>Test Suite Test</type>
 <update_domain>global</update_domain>
-<update_guid>084d9a3c92760010305ab6632d36ab0b</update_guid>
-<update_guid_history>084d9a3c92760010305ab6632d36ab0b:1625397776,4daba5db71f3230002f5f479071239e3:1625397776,fc9f5e7fa926001056250ff19279562b:-1799930215,4daba5db71f3230002f5f479071239e3:1625397776</update_guid_history>
+<update_guid>3aded2bc4c7600109469516b7b70e68b</update_guid>
+<update_guid_history>3aded2bc4c7600109469516b7b70e68b:1625397776,4daba5db71f3230002f5f479071239e3:1625397776,fc9f5e7fa926001056250ff19279562b:-1799930215,4daba5db71f3230002f5f479071239e3:1625397776</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -281,21 +386,47 @@
 //jasmine.getEnv().execute();&#13;
 </value><variable display_value="">989d9e235324220002c6435723dc3484</variable></sys_variable_value></record_update>]]></payload>
 <payload_hash>680526956</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:07</sys_created_on>
-<sys_id>5f5d5e3cdb760010df8cab7dca961911</sys_id>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>96fe16bcdb760010df8cab7dca96198f</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54a88e0000001</sys_recorded_at>
+<sys_recorded_at>1700d5b16300000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:07</sys_updated_on>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
 <table/>
 <target_name>Run Server Side Script</target_name>
 <type>Test Step</type>
 <update_domain>global</update_domain>
-<update_guid>804d5a3c8e760010d586e48deb455ffe</update_guid>
-<update_guid_history>804d5a3c8e760010d586e48deb455ffe:680526956,66ee4ebcba36001063d874694ed79fa6:680526956,0663e890a0a8ff00f57dfb1196b3155e:2062651565,9d9f5e7f63260010cb1f3fca8d6c2684:-1576391384,b0d3937e57e24010a171c87d4bbe1855:680526956,0663e890a0a8ff00f57dfb1196b3155e:2062651565,a97ba99bbaf323002af6df69ffc4c0c7:133917721</update_guid_history>
+<update_guid>faded2bc7b760010d2dc46514f244f71</update_guid>
+<update_guid_history>faded2bc7b760010d2dc46514f244f71:680526956,66ee4ebcba36001063d874694ed79fa6:680526956,0663e890a0a8ff00f57dfb1196b3155e:2062651565,9d9f5e7f63260010cb1f3fca8d6c2684:-1576391384,b0d3937e57e24010a171c87d4bbe1855:680526956,0663e890a0a8ff00f57dfb1196b3155e:2062651565,a97ba99bbaf323002af6df69ffc4c0c7:133917721</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
+<category>customer</category>
+<comments/>
+<name>ecc_agent_application_0a2c06fbdbe20010df8cab7dca961933</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ecc_agent_application"><ecc_agent_application action="DELETE"><default_mid_server display_value="mid-docker-02">ebb44eb3dbe20010df8cab7dca9619ed</default_mid_server><included_in_app_all>true</included_in_app_all><name>Test app</name><sys_class_name>ecc_agent_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-31 19:25:11</sys_created_on><sys_id>0a2c06fbdbe20010df8cab7dca961933</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test app</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>ecc_agent_application_0a2c06fbdbe20010df8cab7dca961933</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-31 19:25:11</sys_updated_on></ecc_agent_application></record_update>]]></payload>
+<payload_hash>654371069</payload_hash>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>9afe16bcdb760010df8cab7dca96198e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1700d5b168b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
+<table/>
+<target_name>Test app</target_name>
+<type>MID Server Application</type>
+<update_domain>global</update_domain>
+<update_guid>b2ded2bcde760010e374645142dfc684</update_guid>
+<update_guid_history>b2ded2bcde760010e374645142dfc684:654371069,b89f5e7f182600103d828b70d8adbf1a:654371069,f83c8afbcee200101fcf7262ee5b48c0:-1622696719</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -304,50 +435,24 @@
 <application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
 <category>customer</category>
 <comments/>
-<name>sys_scope_privilege_a2312d13dbf32300fcf41780399619c7</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 13:56:39</sys_created_on><sys_id>a2312d13dbf32300fcf41780399619c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CiCdJsDoc</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>sys_scope_privilege_a2312d13dbf32300fcf41780399619c7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-28 13:56:39</sys_updated_on><target_name>CiCdJsDoc</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_script_include</target_type></sys_scope_privilege></record_update>]]></payload>
-<payload_hash>-582228670</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
+<name>sys_scope_privilege_ae312d13dbf32300fcf41780399619c4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>read</operation><source_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 13:56:39</sys_created_on><sys_id>ae312d13dbf32300fcf41780399619c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_script_include</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>sys_scope_privilege_ae312d13dbf32300fcf41780399619c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-28 13:56:39</sys_updated_on><target_name>sys_script_include</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>1163682929</payload_hash>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:07</sys_created_on>
-<sys_id>935d5e3cdb760010df8cab7dca961913</sys_id>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>9efe16bcdb760010df8cab7dca961990</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54a9c30000001</sys_recorded_at>
+<sys_recorded_at>1700d5b16e40000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:07</sys_updated_on>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
 <table/>
-<target_name>CiCdJsDoc</target_name>
+<target_name>sys_script_include</target_name>
 <type>Cross scope privilege</type>
 <update_domain>global</update_domain>
-<update_guid>004d9a3c02760010bede413413b8bd09</update_guid>
-<update_guid_history>004d9a3c02760010bede413413b8bd09:-582228670,2e312d134af32300b8893ede43ff84c7:-582228670,119f5e7f56260010c78f7cf2384ff771:1704289358,2e312d134af32300b8893ede43ff84c7:-582228670</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
-<category>customer</category>
-<comments/>
-<name>sys_atf_test_suite_2d8b65dbdbf32300fcf41780399619b1</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite"><sys_atf_test_suite action="INSERT_OR_UPDATE"><active>true</active><description/><input_filter/><name>CICD Suite </name><parent/><sys_class_name>sys_atf_test_suite</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 14:41:48</sys_created_on><sys_id>2d8b65dbdbf32300fcf41780399619b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CICD Suite </sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>sys_atf_test_suite_2d8b65dbdbf32300fcf41780399619b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-28 14:41:48</sys_updated_on></sys_atf_test_suite></record_update>]]></payload>
-<payload_hash>658890263</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:07</sys_created_on>
-<sys_id>975d5e3cdb760010df8cab7dca961912</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54a95a0000001</sys_recorded_at>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:07</sys_updated_on>
-<table/>
-<target_name>CICD Suite </target_name>
-<type>Test Suite</type>
-<update_domain>global</update_domain>
-<update_guid>444d9a3c937600105250e78395dc7905</update_guid>
-<update_guid_history>444d9a3c937600105250e78395dc7905:658890263,26ee4ebcaa360010be7163b927a840ae:658890263,f78ba1dbd0f32300b835605611031af6:-979312207,fc9f5e7f4d2600101d7d287b758e2c2d:-1033360501,b4d3937e2ee24010be3e218094e27f58:658890263,f78ba1dbd0f32300b835605611031af6:-979312207</update_guid_history>
+<update_guid>f2ded2bc907600100622ec962305248a</update_guid>
+<update_guid_history>f2ded2bc907600100622ec962305248a:1163682929,a6312d13cff3230087bbf5151bd663c6:1163682929,519f5e7fc52600106a6afcc998f46b7b:902530173,a6312d13cff3230087bbf5151bd663c6:1163682929</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -443,47 +548,21 @@
 //jasmine.getEnv().execute();&#13;
 </value><variable display_value="">989d9e235324220002c6435723dc3484</variable></sys_variable_value></record_update>]]></payload>
 <payload_hash>1026457345</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:06</sys_created_on>
-<sys_id>9b5d5e3cdb760010df8cab7dca961911</sys_id>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>d2fe16bcdb760010df8cab7dca96198f</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54a86f0000001</sys_recorded_at>
+<sys_recorded_at>1700d5b16110000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:06</sys_updated_on>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
 <table/>
 <target_name>Run Server Side Script</target_name>
 <type>Test Step</type>
 <update_domain>global</update_domain>
-<update_guid>444d5a3c09760010645b7bad25c615fc</update_guid>
-<update_guid_history>444d5a3c09760010645b7bad25c615fc:1026457345,e2ee4ebccf360010ba5801a46ff70ba4:1026457345,4663e890b0a8ff0034b390041e88575c:-1693868926,3c9f5e7f432600102e0ad1b98b6e7820:986848667,30d3937ebde240100e58da6d16774253:1026457345,4663e890b0a8ff0034b390041e88575c:-1693868926,784ba1db2cf323005aef3424e4e04f3c:2116268147</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>DELETE</action>
-<application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
-<category>customer</category>
-<comments/>
-<name>ecc_agent_application_0a2c06fbdbe20010df8cab7dca961933</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ecc_agent_application"><ecc_agent_application action="DELETE"><default_mid_server display_value="mid-docker-02">ebb44eb3dbe20010df8cab7dca9619ed</default_mid_server><included_in_app_all>true</included_in_app_all><name>Test app</name><sys_class_name>ecc_agent_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-31 19:25:11</sys_created_on><sys_id>0a2c06fbdbe20010df8cab7dca961933</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test app</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>ecc_agent_application_0a2c06fbdbe20010df8cab7dca961933</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-31 19:25:11</sys_updated_on></ecc_agent_application></record_update>]]></payload>
-<payload_hash>654371069</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:06</sys_created_on>
-<sys_id>9b5d9a3cdb760010df8cab7dca96197d</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54a9320000001</sys_recorded_at>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:06</sys_updated_on>
-<table/>
-<target_name>Test app</target_name>
-<type>MID Server Application</type>
-<update_domain>global</update_domain>
-<update_guid>804d9a3cdd7600102c10d4f633e97704</update_guid>
-<update_guid_history>804d9a3cdd7600102c10d4f633e97704:654371069,b89f5e7f182600103d828b70d8adbf1a:654371069,f83c8afbcee200101fcf7262ee5b48c0:-1622696719</update_guid_history>
+<update_guid>beded2bce37600108481efbe1d09dd6f</update_guid>
+<update_guid_history>beded2bce37600108481efbe1d09dd6f:1026457345,e2ee4ebccf360010ba5801a46ff70ba4:1026457345,4663e890b0a8ff0034b390041e88575c:-1693868926,3c9f5e7f432600102e0ad1b98b6e7820:986848667,30d3937ebde240100e58da6d16774253:1026457345,4663e890b0a8ff0034b390041e88575c:-1693868926,784ba1db2cf323005aef3424e4e04f3c:2116268147</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -501,21 +580,21 @@ secondinclude.prototype = {
     type: 'secondinclude'
 };]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-01-31 18:23:14&lt;/sys_created_on&gt;&lt;sys_id&gt;43fd3dfbdba20010df8cab7dca961969&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;secondinclude&lt;/sys_name&gt;&lt;sys_package display_value="CICD Test Application" source="x_11413_cicd_test"&gt;268e9d5fdbb32300fcf417803996195e&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="CICD Test Application"&gt;268e9d5fdbb32300fcf417803996195e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_43fd3dfbdba20010df8cab7dca961969&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-01-31 18:23:14&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
 <payload_hash>230478067</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:07</sys_created_on>
-<sys_id>9f5d5e3cdb760010df8cab7dca961913</sys_id>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>d6fe16bcdb760010df8cab7dca961991</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54a8b90000001</sys_recorded_at>
+<sys_recorded_at>1700d5b16580000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:07</sys_updated_on>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
 <table/>
 <target_name>secondinclude</target_name>
 <type>Script Include</type>
 <update_domain>global</update_domain>
-<update_guid>c84d9a3c357600101b148c33571eeb00</update_guid>
-<update_guid_history>c84d9a3c357600101b148c33571eeb00:230478067,419f5e7fd4260010767a520cbc53e654:230478067,690e313f0da20010023f03c2a0074af5:1769542271</update_guid_history>
+<update_guid>36ded2bc55760010c4a134b93e99ce74</update_guid>
+<update_guid_history>36ded2bc55760010c4a134b93e99ce74:230478067,419f5e7fd4260010767a520cbc53e654:230478067,690e313f0da20010023f03c2a0074af5:1769542271</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
@@ -524,129 +603,50 @@ secondinclude.prototype = {
 <application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
 <category>customer</category>
 <comments/>
-<name>sys_atf_test_e97ba99bdbf32300fcf41780399619c3</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>CICD Test 2</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 14:41:22</sys_created_on><sys_id>e97ba99bdbf32300fcf41780399619c3</sys_id><sys_mod_count>1</sys_mod_count><sys_name>CICD Test 2</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>sys_atf_test_e97ba99bdbf32300fcf41780399619c3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-28 14:41:29</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=e97ba99bdbf32300fcf41780399619c3"/></record_update>]]></payload>
-<payload_hash>68977711</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
+<name>sys_scope_privilege_a2312d13dbf32300fcf41780399619c7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 13:56:39</sys_created_on><sys_id>a2312d13dbf32300fcf41780399619c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CiCdJsDoc</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>sys_scope_privilege_a2312d13dbf32300fcf41780399619c7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-28 13:56:39</sys_updated_on><target_name>CiCdJsDoc</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_script_include</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-582228670</payload_hash>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:07</sys_created_on>
-<sys_id>d35d5e3cdb760010df8cab7dca961912</sys_id>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>dafe16bcdb760010df8cab7dca961990</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54aa5d0000001</sys_recorded_at>
+<sys_recorded_at>1700d5b16d00000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:07</sys_updated_on>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
 <table/>
-<target_name>CICD Test 2</target_name>
-<type>Test</type>
-<update_domain>global</update_domain>
-<update_guid>844d9a3c35760010993404983a31d01b</update_guid>
-<update_guid_history>844d9a3c35760010993404983a31d01b:68977711,36ee4ebc8a360010ad2a360aa5fca0b9:68977711,137be1db20f32300471cc8d5a6379159:-312501236,999f5e7fb72600107514ac2fea54228e:-277975133,f4d3937e82e24010ef059688e0608163:68977711,137be1db20f32300471cc8d5a6379159:-312501236,e17ba99b8ef3230024d94bfe0d5686c5:-215346626</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
-<category>customer</category>
-<comments/>
-<name>sys_app_268e9d5fdbb32300fcf417803996195e</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>false</can_edit_in_studio><enforce_license>log</enforce_license><guided_setup_guid/><js_level>helsinki_es5</js_level><licensable>true</licensable><license_category/><license_model>none</license_model><logo/><menu/><name>CICD Test Application</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_11413_cicd_test</scope><scoped_administration>false</scoped_administration><short_description/><source>x_11413_cicd_test</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 13:44:55</sys_created_on><sys_id>268e9d5fdbb32300fcf417803996195e</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-03 22:15:17</sys_updated_on><template/><trackable>true</trackable><user_role/><vendor/><vendor_prefix/><version>1.0.1</version></sys_app></record_update>]]></payload>
-<payload_hash>-1045830241</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:06</sys_created_on>
-<sys_id>d75d5e3cdb760010df8cab7dca961911</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54a84c0000001</sys_recorded_at>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:06</sys_updated_on>
-<table/>
-<target_name>CICD Test Application</target_name>
-<type>Custom Application</type>
-<update_domain>global</update_domain>
-<update_guid>c04d5a3c8e760010cc75e93fcd5086fa</update_guid>
-<update_guid_history>c04d5a3c8e760010cc75e93fcd5086fa:-1045830241,31ef4ebcf93600100537b273ae38a681:-1045830241,a6ee4ebc21360010ee340c01fbebe3a0:1157241030,aa8e91136bf32300d9d4df8138f692aa:-592436742,a99f5e7f87260010664088353e4ff099:-529152854,6c5c5f76b7264010b65e414d82d15e35:-1375596002,bcd3937ef4e2401059c42b1b4335214f:1157241030,aa8e91136bf32300d9d4df8138f692aa:-592436742</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
-<category>customer</category>
-<comments/>
-<name>sys_script_include_1b9ed113dbf32300fcf41780399619fc</name>
-<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_11413_cicd_test.tst&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;tst&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/**
- * Class Description
- * 
- * @class 
- * @author System Administrator [admin]
- * @memberof x_11413_cicd_test.module:sys_script_include
- */
-var tst = Class.create();
-tst.prototype = /** @lends x_11413_cicd_test.module:sys_script_include.tst.prototype */ {
-	/**
-	 * Description
-	 * 
-	 * @returns {undefined}
-	 */
-	initialize: function() {
-	},
-	
-	/**
-	 * Description
-	 * 
-	 * @returns {boolean}
-	 */
-	dummy: function(){
-		return true;
-	},
-	
-	type: 'tst'
-};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-28 13:45:57&lt;/sys_created_on&gt;&lt;sys_id&gt;1b9ed113dbf32300fcf41780399619fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;tst&lt;/sys_name&gt;&lt;sys_package display_value="CICD Test Application" source="x_11413_cicd_test"&gt;268e9d5fdbb32300fcf417803996195e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CICD Test Application"&gt;268e9d5fdbb32300fcf417803996195e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_1b9ed113dbf32300fcf41780399619fc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-03-28 14:44:35&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
-<payload_hash>1008681585</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:07</sys_created_on>
-<sys_id>db5d5e3cdb760010df8cab7dca961913</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54a8a30000001</sys_recorded_at>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:07</sys_updated_on>
-<table/>
-<target_name>tst</target_name>
-<type>Script Include</type>
-<update_domain>global</update_domain>
-<update_guid>c44d5a3c91760010f887afbfd81be0ff</update_guid>
-<update_guid_history>c44d5a3c91760010f887afbfd81be0ff:1008681585,eeee4ebc09360010bf199c4e5e522ba7:1008681585,f1b8fd1044acff009ea5106fffe178dc:-1350214874,bc9f5e7fbb260010b077b9828855e027:-792277635,3cd3937ebae240103be1d540dfcfad56:1008681585,f1b8fd1044acff009ea5106fffe178dc:-1350214874,be09611b8af32300b5e7d7f88b2759f3:-613142934,b4c5e9175bf32300caecadd33c24f5b6:718923934,0eb5e91700f323005672ea792f1b066b:1646079823,99ee9513b7f3230055f7388cfd43d01a:-1681877651,b5ced513adf323009f38db6b92d99bb2:-1730179430</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
-<category>customer</category>
-<comments/>
-<name>sys_scope_privilege_4010215bdbb32300fcf41780399619cb</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 13:51:34</sys_created_on><sys_id>4010215bdbb32300fcf41780399619cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Glide API: properties</sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>sys_scope_privilege_4010215bdbb32300fcf41780399619cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-28 13:51:34</sys_updated_on><target_name>Glide API: properties</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
-<payload_hash>1294230145</payload_hash>
-<remote_update_set display_value="CICD Test Application - 1.0.1">d35d9a3cdb760010df8cab7dca96197d</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2020-02-03 23:14:07</sys_created_on>
-<sys_id>df5d5e3cdb760010df8cab7dca961912</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>1700d54a9a80000001</sys_recorded_at>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2020-02-03 23:14:07</sys_updated_on>
-<table/>
-<target_name>Glide API: properties</target_name>
+<target_name>CiCdJsDoc</target_name>
 <type>Cross scope privilege</type>
 <update_domain>global</update_domain>
-<update_guid>4c4d9a3c0e760010841d70efbe893f07</update_guid>
-<update_guid_history>4c4d9a3c0e760010841d70efbe893f07:1294230145,cc10215b44b3230003d08ee4dcd262cc:1294230145,419f5e7f71260010719259cda6a2b241:814107021,cc10215b44b3230003d08ee4dcd262cc:1294230145</update_guid_history>
+<update_guid>32ded2bcf676001013c53548febf4089</update_guid>
+<update_guid_history>32ded2bcf676001013c53548febf4089:-582228670,2e312d134af32300b8893ede43ff84c7:-582228670,119f5e7f56260010c78f7cf2384ff771:1704289358,2e312d134af32300b8893ede43ff84c7:-582228670</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_suite_2d8b65dbdbf32300fcf41780399619b1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite"><sys_atf_test_suite action="INSERT_OR_UPDATE"><active>true</active><description/><input_filter/><name>CICD Suite </name><parent/><sys_class_name>sys_atf_test_suite</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-02-28 14:41:48</sys_created_on><sys_id>2d8b65dbdbf32300fcf41780399619b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CICD Suite </sys_name><sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package><sys_policy/><sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope><sys_update_name>sys_atf_test_suite_2d8b65dbdbf32300fcf41780399619b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-02-28 14:41:48</sys_updated_on></sys_atf_test_suite></record_update>]]></payload>
+<payload_hash>658890263</payload_hash>
+<remote_update_set display_value="CICD Test Application - 1.0.1">d6fe16bcdb760010df8cab7dca96198e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-02-03 23:21:08</sys_created_on>
+<sys_id>defe16bcdb760010df8cab7dca96198f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1700d5b169c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-02-03 23:21:08</sys_updated_on>
+<table/>
+<target_name>CICD Suite </target_name>
+<type>Test Suite</type>
+<update_domain>global</update_domain>
+<update_guid>76ded2bca07600101f79b7f6d68f1785</update_guid>
+<update_guid_history>76ded2bca07600101f79b7f6d68f1785:658890263,26ee4ebcaa360010be7163b927a840ae:658890263,f78ba1dbd0f32300b835605611031af6:-979312207,fc9f5e7f4d2600101d7d287b758e2c2d:-1033360501,b4d3937e2ee24010be3e218094e27f58:658890263,f78ba1dbd0f32300b835605611031af6:-979312207</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>
