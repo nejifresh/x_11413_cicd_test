@@ -42,10 +42,11 @@
         <update_guid_history>f83c8afbcee200101fcf7262ee5b48c0:-1622696719</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Test app">389f5e7fdb260010df8cab7dca961918</sys_audit_delete>
+        <sys_audit_delete display_value="">389f5e7fdb260010df8cab7dca961918</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-01-31 20:49:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_db_object display_value="" name="ecc_agent_application">ecc_agent_application</sys_db_object>
         <sys_id>85386d4d4a994890a29c2446959aaf11</sys_id>
         <sys_metadata>0a2c06fbdbe20010df8cab7dca961933</sys_metadata>
@@ -54,6 +55,7 @@
         <sys_package display_value="CICD Test Application" source="x_11413_cicd_test">268e9d5fdbb32300fcf417803996195e</sys_package>
         <sys_parent/>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CICD Test Application">268e9d5fdbb32300fcf417803996195e</sys_scope>
         <sys_scope_delete/>
         <sys_update_name>ecc_agent_application_0a2c06fbdbe20010df8cab7dca961933</sys_update_name>
